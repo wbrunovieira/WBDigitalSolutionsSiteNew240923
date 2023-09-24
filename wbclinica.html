@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WB Clínica | Sistema de Gestão para Clínicas</title>
+    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="assets/css/magnific.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-area navbar-expand-lg">
+        <div class="container nav-container navbar-bg">
+            <div class="responsive-mobile-menu">
+                <button class="menu toggle-btn d-block d-lg-none" data-target="#itech_main_menu" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-left"></span>
+                    <span class="icon-right"></span>
+                </button>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+            </div>
+            <div class="nav-right-part nav-right-part-mobile">
+                <a class="search-bar-btn" href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="itech_main_menu">
+                <ul class="navbar-nav menu-open text-lg-end">
+                    <li >
+                        <a href="index.html">Home</a>
+                     
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">Sistemas</a>
+                        <ul class="sub-menu">
+                            <li><a href="wbweb.html">WB Web</a></li>
+                            <li><a href="wbsalao.html">WB Salão</a></li>
+                            <li><a href="wbclinica.html">WB Clínica</a></li>
+                            <li><a href="wbfood.html">WB Food</a></li>
+                            <li><a href="wbshop.html">WB Shop-online (em breve)</a></li>
+                            <li><a href="wbpet.html">WB Pet (em breve)</a></li>
+                            <li><a href="wbagro.html">WB Agro (em breve)</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">Serviços</a>
+                        <ul class="sub-menu">
+                            <li><a href="uiux.html">UI/UX Designer</a></li>
+                            <li><a href="copy.html">Copywriter</a></li>
+                            <li><a href="seo.html">SEO</a></li>
+                            <li><a href="trafego.html">Gestão de Tráfego</a></li>
+                            <li><a href="media.html">Social Media</a></li>
+                            <li><a href="site.html">Sites</a></li>
+                            <li><a href="app.html">Aplicativos</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">Clientes</a>
+                        <div class="sub-menu">
+                           
+                           
+                        </div>
+                    </li>
+                    <li class="menu-item" ><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="nav-right-part nav-right-part-desktop align-self-center">
+                <a class="navbar-phone" href="tel:">
+                    <span class="icon">
+                        <img src="assets/img/icon/1.png" alt="img">
+                    </span>
+                    <span>Ligue para nós</span>
+                    <h5 style="font-size: 5px; margin-bottom: 5px; "><p style="font-size: 10px; display: inline;color:#bfbfbf">Brasil</p><p style="font-size: 10px; display: inline; color:#bfbfbf">+55 (11) 5206-4203</p></h5>
+                    <h5 style="font-size: 5px; margin-bottom: 5px;"><p style="font-size: 10px; display: inline;color:#bfbfbf">Portugal</p> <p style="font-size: 10px; display: inline;color:#bfbfbf">+351 30 880 8015</p></h5>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- page title start -->
+    <div>
+        <div class="container">
+            
+                
+               
+                    <h1  class="page-title text-center">WB Clínica</h1>
+                
+            
+        </div>
+    </div>
+    <!-- page title end -->
+
+    <!-- service area start -->
+    <div class="service-area pd-top-60 pd-bottom-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="td-sidebar service-sidebar">
+                        <div class="widget widget_catagory">
+                            <h5 class="widget-title"><i class="fas fa-arrow-right"></i> WB Clínica Tópicos</h5>               
+                            <ul class="catagory-items">
+                                <li><a style="font-size: 14px; padding: 0;" href="#seguimentos"> Seguimentos Atendidos</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#agendamentointeligente"> Agenda Inteligente</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#controledeconsultas"> Controle de Consultas</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#prontuarioeletronico"> Prontuários Eletrônico</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#recursos"> Integrações</a> </li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#recursos"> Cadastros e Permissões</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#recursos"> Emissão de Notas Fiscais</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#bloco3"> Controle de Estoque</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#bloco3"> Orçamentos</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#bloco3"> Controle Financeiro</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#bloco4"> Treinamento</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#bloco4"> Suporte</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#bloco4"> Tecnologia, Hospedagem e Atualizações</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#catalogo"> Catalogo - Download</a></li>
+                                <li><a style="font-size: 14px; padding: 0;"href="#video"> Video de Apresentação</a></li>
+                            </ul>
+                        </div>
+                        <div class="widget widget_author text-center">  
+                            <div class="thumb">
+                                <img src="assets/img/about/9Clinica.png" alt="img">
+                            </div>
+                            <div class="details">
+                                <div class="btn btn-base border-radius-5" style="pointer-events: none;">Fácil e Eficiente</div>
+                            </div>
+                        </div> 
+                        <div class="widget widget_download">
+                            <h5 class="widget-title"><i class="fas fa-arrow-right"></i> Download</h5>               
+                            <ul>
+                                
+                                <li><a id="catalogo" href="https://adobe.ly/3sXKZ9g" target="_blank">Catalogo WB Clínica<i class="fa fa-angle-double-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="blog-details-page-content">
+                        <div class="single-blog-inner mb-0">
+                            <div class="thumb">
+                                <img src="assets/img/service/7Clinica.png" alt="img">
+                            </div>
+                            <div class="details" >
+                                <h4>Sua Clínica, Nossas Soluções, Descubra o Poder do Software</h4>
+                                <p>Na vanguarda da inovação em gestão de clínicas, apresentamos um mundo de possibilidades em um único lugar. Bem-vindo à revolução da administração clínica, onde a simplicidade e a eficiência se unem para transformar o dia a dia da sua clínica. </p>
+                                <p>A seguir, você encontrará informações detalhadas sobre todas as funcionalidades, mas agora, gostaríamos de ressaltar nosso compromisso com a sua experiência simplificada e o poder transformador do nosso software.</p>
+
+                                <p>Junte-se a nós para descobrir como podemos otimizar cada aspecto da sua clínica, liberando você para se concentrar no que realmente importa: a saúde dos seus pacientes.</p>
+
+                                <h4 id="seguimentos">Seguimentos Atendidos</h4>
+                               
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="single-list-inner style-check style-check mb-3">
+                                            <li><i class="far fa-check-circle"></i> Clinicas</li>
+                                            <li><i class="far fa-check-circle"></i> Consultórios</li>
+                                            <li><i class="far fa-check-circle"></i> Médicos</li>
+                                            <li><i class="far fa-check-circle"></i> Dentistas</li>
+                                            <li><i class="far fa-check-circle"></i>Fisioterapeutas</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="single-list-inner style-check style-check mb-3">
+                                            <li><i class="far fa-check-circle"></i>Fonoaudiólogos</li>
+                                            <li><i class="far fa-check-circle"></i> Nutricionistas</li>
+                                            <li><i class="far fa-check-circle"></i> Psicólogos</li>
+                                            <li><i class="far fa-check-circle"></i> Terapeutas Ocupacionais</li>
+                                            <li><i class="far fa-check-circle"></i> Esteticitas</li>
+                                            <li><i class="far fa-check-circle"></i> Profissionais da Saúde</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service area end -->
+
+    <div id="agendamentointeligente" class="about-area pd-top-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-thumb-inner pe-xl-5 me-xl-5 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                        
+                        <img class="animate-img-2 left_image_bounce" src="assets/img/about/3.png" alt="img">
+                        <img class="animate-img-3 top_image_bounce" src="assets/img/banner/5.svg" alt="img">
+                        <img class="main-img" src="assets/img/about/1wbclinicaagendamentointeligente.jpg" alt="img">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <div class="section-title mt-5 mt-lg-0">
+                        <h3 class="title">Agendamento Inteligente</h3>
+                        <h6 class="title ">È possivel realizar <span>agendamentos recorrentes</span> registrar faltas e comunicar com o paciente por WhatsApp.</h6>
+                        <p class="content mb-4 " >Com nosso sistema de gestão para clínicas, você pode simplificar a vida da sua equipe e proporcionar conveniência aos seus pacientes como nunca antes. Agendamentos recorrentes são uma realidade, economizando tempo e esforço na marcação de consultas. </p>
+                        <E class="content mb-4 " >Além disso, o registro de faltas é mais fácil do que nunca, permitindo um acompanhamento preciso das consultas perdidas. E para estreitar ainda mais o relacionamento com seus pacientes, nossa integração com o WhatsApp permite uma comunicação direta e ágil, mantendo todos informados e conectados. </E>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="controledeconsultas" class="about-area pd-top-60">
+        <div class="container">
+
+           
+
+            <div class="row">
+
+                <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <div class="section-title ">
+                        <h3 class="title">Controle de Consultas</h3>
+                        <h6 class="title ">Por meio do controle de consultas, você e a sua equipe podem fazer uma <span>melhor gestão de horários,</span> além de contarem com informações sobre últimsos atendimentos, planos e convenios.</h6>
+                        <p class="content mb-4 " >Com nosso sistema de gestão para clínicas, você pode simplificar a vida da sua equipe e proporcionar conveniência aos seus pacientes como nunca antes. Agendamentos recorrentes são uma realidade, economizando tempo e esforço na marcação de consultas. </p>
+                        <E class="content mb-4 " >Além disso, o registro de faltas é mais fácil do que nunca, permitindo um acompanhamento preciso das consultas perdidas. E para estreitar ainda mais o relacionamento com seus pacientes, nossa integração com o WhatsApp permite uma comunicação direta e ágil, mantendo todos informados e conectados. </E>
+                        
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <div class="about-thumb-inner pe-xl-5 me-xl-5 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                        
+                        <img class="animate-img-2 left_image_bounce" src="assets/img/about/3.png" alt="img">
+                        <img class="animate-img-3 top_image_bounce" src="assets/img/banner/5.svg" alt="img">
+                        <img class="main-img" src="assets/img/about/1wbclinicacontroledeconslutas.jpg" alt="img">
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="prontuarioeletronico" class="about-area pd-top-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-thumb-inner pe-xl-5 me-xl-5 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                        
+                        <img class="animate-img-2 left_image_bounce" src="assets/img/about/3.png" alt="img">
+                        <img class="animate-img-3 top_image_bounce" src="assets/img/banner/5.svg" alt="img">
+                        <img class="main-img" src="assets/img/about/1wbclinicaprontuario.jpg" alt="img">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <div class="section-title mt-5 mt-lg-0">
+                        <h3 class="title">Prontuário Eletrônico</h3>
+                        <h6 class="title">Registre informações,<span>anexe imagens e exames</span> para acompanhar todo o histórico do paciente. Compartilhe o prontuário com outros profissionais de saúde da clínica para um atendimento mais completo e eficaz.</h6>
+                        <p class="content mb-4 " >No centro de nossa solução de gestão para clínicas está a capacidade de registrar, organizar e acessar informações essenciais do paciente de forma simples e eficaz. Você pode facilmente anexar imagens e exames, criando um registro completo do histórico médico do paciente. </p>
+                        <E class="content mb-4 " >Mas não paramos por aí. Nossa plataforma permite o compartilhamento seguro do prontuário com outros profissionais de saúde da clínica, garantindo um atendimento colaborativo e integrado. Assim, garantimos que cada paciente receba um cuidado abrangente e personalizado, proporcionando-lhes o melhor atendimento possível. </E>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="recursos" >
+
+        <div class="container">
+      
+          <h2 class="text-center">Recursos que fazem a diferença</h2>
+      
+          <div class="row mt-5">
+          
+            <div class="col-md-6 text-center">
+              <img src="assets/img/about/1wbclinicaintegracao.jpg" > 
+              <h3 class="mt-2">Integrações</h3>
+              <p>Comunicação discreta entre médicos e secretários (as) para facilitar e agilizar o atendimento ao cliente. 
+               </p>
+              <p>O profissional acompanha da sua sala a fila de espera de forma automática, sem a necessidade de consultar a recepção.</p>
+            </div>
+      
+            <div class="col-md-6 text-center">
+              <img src="assets/img/about/1wbclinicacadastro.jpg" class="img-fluid">
+              <h3 class="mt-2">Cadastros e Permissões</h3>
+              <p>Permite o cadastro ilimitado de colaboradores, define o papel que cada um desempenha e suas respectivas funcionalidades. 
+                </p>
+              <p>Além disso, cada usuário gerencia a sua agenda de forma individual.</p>
+            </div>
+      
+            <div class="col-md-4 text-center">
+              <img src="assets/img/about/1wbclinicanotas.jpg" class="img-fluid">
+              <h3 class="mt-2">Notas Fiscais</h3>
+              <p>Emita NFSe de forma descomplicada</p>  
+              <p>Entrada de Notas Fiscais de forma automãtica, vinculado ao site da Receita Federal.</p>  
+            </div>
+      
+          </div>
+      
+        </div>
+        
+      </section>
+
+      <section id="recursos" >
+
+        <div class="container">
+      
+        
+      
+          <div class="row mt-5"id="bloco3">
+          
+            <div class="col-md-4 text-center">
+              <img src="assets/img/about/1wbclinicaestoque.jpg" > 
+              <h3 class="mt-2">Controle de Estoque</h3>
+              <p>Registre todas as vendas dos produtos disponíveis na clínica com facilidade.
+               </p>
+              <p>Mantenha um registro preciso de todas as vendas dos produtos disponíveis na clínica de forma simples e eficiente.</p>
+            </div>
+      
+            <div class="col-md-4 text-center">
+              <img src="assets/img/about/1wbclinicaorcamento.jpg" class="img-fluid">
+              <h3 class="mt-2">Orçamentos</h3>
+              <p>Crie orçamentos detalhados para que seus pacientes possam avaliar seus planos de tratamento com clareza e transparência.
+                </p>
+              <p>Além disso, permita que cada usuário gerencie sua própria agenda de forma individual, proporcionando autonomia e organização.</p>
+            </div>
+      
+            <div class="col-md-4 text-center">
+              <img src="assets/img/about/1wbclinicafinancas.jpg" class="img-fluid">
+              <h3 class="mt-2">Controle Financeiro</h3>
+              <p>Menos burocracia, papéis e planilhas para acompanhar receita, despesas e relatórios. </p>  
+              <p>Tudo é feito de forma automática e personalizada para atender as necessidades da sua clínica.</p>  
+            </div>
+      
+          </div>
+      
+        </div>
+        
+      </section>
+     <div class="container"> 
+
+        <div class="row mt-5">
+
+        <div id="bloco4" class="col-lg-4 col-md-6">
+            <div class="single-service-inner">
+                <div class="text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2.625em" fill="#762990" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M160 64c0-35.3 28.7-64 64-64H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H336.8c-11.8-25.5-29.9-47.5-52.4-64H384V320c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32v32h64V64L224 64v49.1C205.2 102.2 183.3 96 160 96V64zm0 64a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM133.3 352h53.3C260.3 352 320 411.7 320 485.3c0 14.7-11.9 26.7-26.7 26.7H26.7C11.9 512 0 500.1 0 485.3C0 411.7 59.7 352 133.3 352z"/></svg>
+                </div>
+                <div class="service-content">
+                    <h4 class="title text-center mt-2">Treinamento</h4>
+                    <div style="font-size: 14px;">
+                    <p>Nossos programas de treinamento se destacam pela abordagem centrada no aluno. Valorizamos cada pessoa e adaptamos o treinamento para atender às suas necessidades individuais.</p> <p> Nossos instrutores experientes garantem uma experiência de aprendizado de alta qualidade, focada na compreensão e no crescimento pessoal. Além disso, estamos empenhados em oferecer suporte contínuo ao longo de sua jornada de aprendizado.</p> <p>Entendemos que cada aluno é único, e nosso compromisso é ajudá-lo a atingir seus objetivos, seja você um iniciante em busca de conhecimento ou um profissional em busca de aprimoramento. Com a nossa abordagem, você pode esperar não apenas adquirir conhecimento, mas também desenvolver habilidades práticas e confiança em sua área de estudo.
+                    </div>
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="single-service-inner">
+                <div class="text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2.625em" fill="#762990" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M544 248v3.3l69.7-69.7c21.9-21.9 21.9-57.3 0-79.2L535.6 24.4c-21.9-21.9-57.3-21.9-79.2 0L416.3 64.5c-2.7-.3-5.5-.5-8.3-.5H296c-37.1 0-67.6 28-71.6 64H224V248c0 22.1 17.9 40 40 40s40-17.9 40-40V176c0 0 0-.1 0-.1V160l16 0 136 0c0 0 0 0 .1 0H464c44.2 0 80 35.8 80 80v8zM336 192v56c0 39.8-32.2 72-72 72s-72-32.2-72-72V129.4c-35.9 6.2-65.8 32.3-76 68.2L99.5 255.2 26.3 328.4c-21.9 21.9-21.9 57.3 0 79.2l78.1 78.1c21.9 21.9 57.3 21.9 79.2 0l37.7-37.7c.9 0 1.8 .1 2.7 .1H384c26.5 0 48-21.5 48-48c0-5.6-1-11-2.7-16H432c26.5 0 48-21.5 48-48c0-12.8-5-24.4-13.2-33c25.7-5 45.1-27.6 45.2-54.8v-.4c-.1-30.8-25.1-55.8-56-55.8c0 0 0 0 0 0l-120 0z"/></svg>
+                </div>
+                <div class="service-content">
+                    <h4 class="title text-center mt-2">Suporte</h4>
+                    <div style="font-size: 14px;">
+                    <p>Nossa equipe de suporte é conhecida pelo atendimento humanizado. Valorizamos cada cliente e personalizamos nosso suporte para atender às suas necessidades específicas.</p><p>Nossos especialistas dedicados garantem um serviço de alta qualidade, priorizando a resolução de problemas e a satisfação do cliente com um toque pessoal. Estamos sempre prontos para ouvir suas preocupações, oferecer orientações detalhadas e fornecer soluções rápidas e eficazes.</p><p> Nosso compromisso é estabelecer uma parceria sólida e confiável com você, para que você se sinta apoiado em cada etapa da sua jornada conosco.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6" >
+            <div class="single-service-inner">
+                <div class="text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2.625em" fill="#762990" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
+                </div>
+                <div class="service-content">
+                    <h4 class="title text-center mt-2">Tecnologia, Hospedagem e Atualizações</h4>
+                    <div style="font-size: 14px;">
+                    <p>Nossa tecnologia é desenvolvida utilizando as mais avançadas do mercado, o que não apenas garante um sistema de última geração para atender às suas necessidades, mas também proporciona segurança e desempenho excepcionais. Além disso, nossa hospedagem na nuvem na AWS, uma referência em confiabilidade e escalabilidade, permite acesso de qualquer lugar, eliminando as interferências dos sistemas operacionais mais antigos.</p><p> Quanto às atualizações, estamos comprometidos em aprimorar constantemente nosso sistema, e o melhor de tudo é que não cobramos taxas adicionais por essas melhorias. </p><p>Você sempre terá acesso às últimas e melhores funcionalidades para aprimorar sua experiência..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+
+    
+</div>
+
+<section id="video" style="padding: 80px 0;">
+    <div class="container px-0">
+  
+        <h2 style="text-align: center; margin-bottom: 30px;">Assista o Video e Conheça o WB Clínicas</h2>
+    
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item w-100 d-block" style="height: 56.25vw;" src="https://www.youtube.com/embed/znzY-IvYjQ4" allowfullscreen></iframe>
+          </div>
+      </div>
+   
+  
+  </section>
+
+  <div class="contact-area mt-5">
+    <div class="container">
+        <div class="contact-inner-1">
+            <img class="top_image_bounce animate-img-1" src="assets/img/banner/2.png" alt="img">
+            <img class="top_image_bounce animate-img-2" src="assets/img/about/6.png" alt="img">
+            <div class="row">
+                <div class="col-lg-8 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <img class="w-100" src="assets/img/bg/4.png" alt="img">
+                </div>
+                <div class="col-lg-4 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <div class="section-title mb-0">
+                        <h6 class="sub-title">CONTATE</h6>
+                        <h2 class="title">Não perca mais <span> Tempo</span> Mande já uma mensagem</h2>
+                        <p class="content">A <span>WB Clínica</span> espera por você !</p><p> <span>Agende uma demonstração.</span></p>
+                        <form class="mt-4">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="single-input-inner style-border">
+                                        <input type="text" placeholder="Seu Nome">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="single-input-inner style-border">
+                                        <input type="text" placeholder="Seu Email">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="single-input-inner style-border">
+                                        <input type="text" placeholder="Seu Telefone">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="single-input-inner style-border">
+                                        <input type="text" placeholder="Assunto">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="single-input-inner style-border">
+                                        <textarea placeholder="Mensagem"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <a class="btn btn-black mt-0 w-100 border-radius-5" href="#">Enviar</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+    <!-- footer area start -->
+    <footer class="footer-area bg-black bg-cover">
+        <div class="footer-subscribe">
+            <div class="container">
+                <div class="footer-subscribe-inner bg-cover" style="background-image: url('./assets/img/bg/6.png');">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h2 class="mb-lg-0 mb-3">Increva-se em nossa Newsletter</h2>
+                        </div>
+                        <div class="col-lg-6 align-self-center text-lg-end">
+                            <input type="text" placeholder="Digite o seu e-mail">
+                            <a class="btn btn-black border-radius-0" href="#">Enviar Agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget widget_about">
+                        <div class="thumb">
+                            <img src="assets/img/logo2.png" alt="img">
+                        </div>
+                        <div class="details">
+                            <p>O seu parceiro ideal para tecnologia e marketing digital</p>
+                            <p class="mt-3"><i class="fa fa-phone-alt"></i> Brasil +55 11 5026-4203</p>
+                            <p class="mt-3"><i class="fa fa-phone-alt"></i> Portugal +351 30 880 8015</p>
+                            <p class="mt-2"><i class="fas fa-envelope" ></i> <span style="font-size: 14px;">bruno@wbdigitalsolutions.com</span></p>
+                            <ul class="social-media">
+                                <li>
+                                    <a href="https://www.instagram.com/wb.digitalsolutions/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/wb.digitalsolutions">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/@wbdigitalsolutions">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.tiktok.com/@wb.digitalsolutions">
+                                        <i class="fab fa-tiktok"></i>
+                                    </a>
+                                </li>
+                               
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget widget_nav_menu">
+                        <h4 class="widget-title">Sistemas</h4>
+                        <ul>
+                            <li><a href="wbweb.html"><i class="fas fa-arrow-right"></i> WB Web</a></li>
+                            <li><a href="wbsalao.html"><i class="fas fa-arrow-right"></i> WB Salão</a></li>
+                            <li><a href="wbclinica.html"><i class="fas fa-arrow-right"></i> WB Clínica</a></li>
+                            <li><a href="wbfood.html"><i class="fas fa-arrow-right"></i> WB Food</a></li>
+                          
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget widget_nav_menu">
+                        <h4 class="widget-title">Serviços</h4>
+                        <ul>
+                            <li><a href="uiux.html"><i class="fas fa-arrow-right"></i> UI/UX Design</a></li>
+                            <li><a href="site.html"><i class="fas fa-arrow-right"></i> Websites</a></li>
+                            <li><a href="media.html"><i class="fas fa-arrow-right"></i> Gestão de Redes Socias</a></li>
+                            <li><a href="trafego.html"><i class="fas fa-arrow-right"></i> Gestão de Tráfego</a></li>
+                            <li><a href="seo.html"><i class="fas fa-arrow-right"></i> SEO</a></li>
+                            <li><a href="copy.html"><i class="fas fa-arrow-right"></i> Copywriter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget widget-recent-post">
+                        <h4 class="widget-title">Blogs Recentes</h4>
+                        <ul>
+                            <li>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="assets/img/widget/1.png" alt="blog">
+                                    </div>
+                                    <div class="media-body align-self-center">
+                                        <div class="post-info mb-2"><i class="far fa-calendar-alt"></i><span>11 de janeiro, 2023</span></div>
+                                        <h6 class="title mb-0"><a href="blog-details.html">Social Media para negócios</a></h6>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="assets/img/widget/2.png" alt="blog">
+                                    </div>
+                                    <div class="media-body align-self-center">
+                                        <div class="post-info mb-2"><i class="far fa-calendar-alt"></i><span>11 de janeiro, 2023</span></div>
+                                        <h6 class="title mb-0">
+                                            <a href="blog-details.html">Como o sistema pode te ajudar<a>
+                                        </h6>             
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 align-self-center">
+                        <p>©WBDIGITALSOLUTIONS | Todos os direitos reservados</p>
+                    </div>
+                    <div class="col-md-6 text-lg-end">
+                        <a href="termos.html">Termos e Condições</a>
+                        <a href="politica.html">Politica de Privacidade</a>
+                        <a href="contact.html">Contate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+
+    <!-- all plugins here -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/magnific.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/owl.min.js"></script>
+    <script src="assets/js/counter-up.min.js"></script>
+    <script src="assets/js/waypoint.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
