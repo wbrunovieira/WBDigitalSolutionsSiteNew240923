@@ -7169,3 +7169,16 @@ ul {
 .text-small {
   font-size: 14px;
 }
+
+.text-color-main {
+  color: var(--main-color) !important;
+}
+
+.container::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: calc(100% - 20px); /* Ajuste a largura conforme necessário */
+  background-color: #762990; /* Ajuste a cor conforme necessário */
+  margin: 20px auto; /* Ajuste as margens conforme necessário */
+}
