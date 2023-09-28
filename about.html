@@ -48,7 +48,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
-<body>
+<>
 
     <!-- preloader area start -->
     <div class="preloader" id="preloader">
@@ -82,9 +82,16 @@
             </div>
             <div class="collapse navbar-collapse" id="itech_main_menu">
                 <ul class="navbar-nav menu-open text-lg-end">
-                    <li class="menu-has-no-child">
-                        <a href="index.html">Home</a>
-                        
+                    <li class="menu-item-has-children">
+                        <a href="#">Home</a>
+                        <a href="#" class="submenu-toggle-btn" onclick="toggleSubMenu(event)">
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about.html">sobre nós</a></li>
+                          
+                        </ul>
                     </li>
                     <li class="menu-item-has-children">
                         <a href="#">Sistemas</a>
@@ -176,7 +183,7 @@
                         
                         <img class="animate-img-2 left_image_bounce" src="assets/img/about/3.png" alt="img">
                         <img class="animate-img-3 top_image_bounce" src="assets/img/banner/5.svg" alt="img">
-                        <img class="main-img" src="assets/img/about/1trafegoquee.jpg" alt="img">
+                        <img class="main-img" src="assets/img/about/1aboutwb.jpg" alt="img">
                     </div>
                 </div>
 
@@ -205,13 +212,52 @@
 
                 <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
                     <div class="section-title ">
+                        <h3 class="title">A Origem da WB Digital Solutions</h3>
+                        <h6 class="title ">Ponto de Partida: <span> A História por Trás  </span>da Nossa Marca</h6>
+                        <p class="content mb-2 mt-4" >A história da WB Digital Solutions tem suas raízes em um período de transformação global. Durante a pandemia, o nosso fundador, Bruno Vieira, encontrava-se fora do Brasil, imerso em um momento de mudanças e reflexões. Com uma paixão inata por tecnologia e inovação e uma década de experiência no mercado de TI, Bruno já havia contribuído para grandes empresas, inclusive na área comercial da Adobe, onde aprofundou seus conhecimentos em design e ferramentas digitais.</p>
+                              
+                        <E class="content mb-4 " >Foi nesse cenário desafiador que Bruno decidiu ampliar seus horizontes e mergulhou no mundo da programação, conquistando seus primeiros clientes. Rapidamente, ele percebeu que, no vasto universo digital, não basta ter um site atrativo ou um aplicativo funcional. É essencial ser visto e destacar-se através do marketing digital.</E>
+
+                        <p class="content mb-2 mt-1 ">Bruno uniu sua vivência em vendas e marketing, conhecimento técnico e habilidades de design para criar soluções integradas e personalizadas. Ele identificou que, frequentemente, empresas de tecnologia carecem de expertise em design e marketing, enquanto agências de marketing podem não ter o conhecimento técnico necessário, recorrendo a templates prontos. Para empresas de pequeno e médio porte, contratar profissionais para cada uma dessas áreas pode ser inviável.</p>
+
+                        <p class="content mb-2 mt-1 ">Foi assim que nasceu a WB Digital Solutions, com a missão de preencher essa lacuna no mercado, oferecendo soluções completas e integradas que combinam tecnologia de ponta, estratégias de marketing inovadoras e design criativo. Nossa jornada começou com a visão de um homem e evoluiu para uma equipe dedicada, comprometida em impulsionar o sucesso digital dos nossos clientes.
+
+                        </p>
+                        
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <div class="about-thumb-inner pe-xl-5 me-xl-5 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                        
+                        <img class="animate-img-2 left_image_bounce" src="assets/img/about/3.png" alt="img">
+                        <img class="animate-img-3 top_image_bounce" src="assets/img/banner/5.svg" alt="img">
+                        <img class="main-img" src="assets/img/about/1abouthistoria.jpg" alt="img">
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="controledeconsultas" class="about-area pd-top-60 ">
+        <div class="container">
+
+           
+
+            <div class="row">
+
+                <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <div class="section-title ">
                         <h3 class="title">Nossa Missão</h3>
                         <p class="title ">Nossa missão é proporcionar a você as ferramentas e estratégias necessárias para se destacar em um mercado cada vez mais competitivo. Trabalhamos incansavelmente para oferecer soluções personalizadas que atendam às suas necessidades específicas, garantindo que sua marca seja vista e lembrada.</p>
 
                         <h3 class="title mt-1">Nosso Diferencial</h3>
                               
                         <E class="content mb-4 " >Nosso diferencial é entregar uma solução completa para o ambiente digital do seu negócio. Cuidamos de tudo, desde a criação do site até a gestão de tráfego, vendas online e sistemas de gestão. Trabalhamos como um centro automotivo para o digital do seu negócio. Assim como você leva o carro para reparos mecânicos, elétricos e eletrônicos em um só lugar, conosco você resolve tudo do ambiente digital em um ponto: site, design, conteúdo, redes sociais, anúncios, sistema de gestão e muito mais. 
-                            <p> Reunimos o que há de melhor no mercado em termos de tecnologia, estratégia de marketing e profissionais especializados. Dessa forma, você pode focar no seu negócio enquanto entregamos resultados online. É uma solução completa e integrada para potencializar sua presença digital..
+                            <p> Reunimos o que há de melhor no mercado em termos de tecnologia, estratégia de marketing e profissionais especializados. Dessa forma, você pode focar no seu negócio enquanto entregamos resultados online. É uma solução completa e integrada para potencializar sua presença digital.
 
                             </p>
                            
@@ -227,7 +273,7 @@
                         
                         <img class="animate-img-2 left_image_bounce" src="assets/img/about/3.png" alt="img">
                         <img class="animate-img-3 top_image_bounce" src="assets/img/banner/5.svg" alt="img">
-                        <img class="main-img" src="assets/img/about/1wbwebpdv.jpg" alt="img">
+                        <img class="main-img" src="assets/img/about/1aboutwhy.jpg" alt="img">
                     </div>
                 </div>
 
@@ -240,37 +286,46 @@
         <h4 class="text-center">Por Que Escolher a WB Digital Solutions ?</h4>
                                
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    
+                                    <div class="col-md-6 mt-4">
                                         <ul class="single-list-inner style-check style-check mb-3">
-                                            <li><i class="far fa-check-circle "></i class> <span class="text-color-main"> Compromisso com o Cliente: </span></li> <p>O seu sucesso é o nosso sucesso. Estamos dedicados a entender e atender às suas necessidades, oferecendo suporte contínuo e construindo relações duradouras.</p>
-                                            <li><i class="far fa-check-circle"></i> <span class="text-color-main">Inovação e Criatividade:</span></li> <p>Estamos sempre à frente das tendências, utilizando tecnologia de ponta e ideias criativas para colocar o seu negócio no mapa.</p>
+                                            <li><i class="far fa-check-circle "></i class> <span class="text-color-main"> Compromisso com o Cliente: </span></li> <p>O seu sucesso é o nosso sucesso. Na WB Digital Solutions, estamos dedicados a entender e atender às suas necessidades, construindo relações duradouras baseadas na confiança e no respeito mútuo. Nosso compromisso vai além de oferecer soluções tecnológicas e de marketing digital; estamos aqui para oferecer suporte contínuo e garantir que suas expectativas sejam superadas.</p>
+                                            <li><i class="far fa-check-circle"></i> <span class="text-color-main">Inovação e Criatividade:</span></li> <p>Na WB Digital Solutions, inovação e criatividade são essenciais. Comprometidos com a atualização constante e a exploração de novas ideias, garantimos que nossos clientes estejam sempre à frente da concorrência. Nossa equipe, em constante aprimoramento, desenvolve soluções únicas que superam expectativas e contribuem para o crescimento do seu negócio. Com a WB Digital Solutions, seu projeto é transformado em realidade pelas mãos de profissionais que valorizam a inovação e trabalham incansavelmente pela sua satisfação.</p>
+                                            <li><i class="far fa-check-circle"></i> <span class="text-color-main">Atendimento Personalizado:</span></li> <p>Cada cliente é único, e por isso, oferecemos atendimento personalizado, adaptando nossas estratégias e soluções às suas necessidades e objetivos específicos.</p>
                                            
                                         </ul>
-                                        <div class="col-md-6">
+                                    </div>
+
+                                    <div class="col-md-6 mt-4">
                                             <ul class="single-list-inner style-check style-check mb-3">
                                              
                                                 <li><i class="far fa-check-circle"></i> <span class="text-color-main">Resultados Comprovados:></span> </li> <p>Nosso foco é gerar resultados tangíveis e mensuráveis, garantindo o retorno do seu investimento e a satisfação plena.</p>
-                                                <li><i class="far fa-check-circle"></i> <span class="text-color-main">Escuta Ativa e Compreensão do Seu Negócio></span> </li> <p>Na [Nome da Sua Empresa], a arte de ouvir é fundamental. Nos dedicamos a entender profundamente as necessidades dos nossos clientes e do mercado, adaptando nossas estratégias para atender aos seus objetivos de forma precisa. Com a gente, você é ouvido, compreendido e suas ideias são valorizadas em cada etapa do nosso trabalho conjunto.    </p>
+
+                                                <li><i class="far fa-check-circle"></i> <span class="text-color-main">Escuta Ativa e Compreensão do Seu Negócio></span> </li> <p>Na WB Digital Solutions, a arte de ouvir é fundamental. Nos dedicamos a entender profundamente as necessidades dos nossos clientes e do mercado, adaptando nossas estratégias para atender aos seus objetivos de forma precisa. Com a gente, você é ouvido, compreendido e suas ideias são valorizadas em cada etapa do nosso trabalho conjunto.    </p>
+
+                                                <li><i class="far fa-check-circle"></i> <span class="text-color-main">Disponibilidade e Suporte:</span> </li> <p>Sabemos que dúvidas e imprevistos podem surgir a qualquer momento. Por isso, nossa equipe está sempre disponível para esclarecer suas dúvidas, resolver problemas e oferecer o suporte necessário para o sucesso do seu projeto.    </p>
+
+                                                <li><i class="far fa-check-circle"></i> <span class="text-color-main">Relacionamento Duradouro:</span> </li> <p>Buscamos construir parcerias sólidas e duradouras com nossos clientes. Acreditamos no crescimento conjunto e estamos aqui para acompanhar e impulsionar a evolução do seu negócio no mundo digital.
+
+                                                    Com a WB Digital Solutions, você não é apenas um cliente; você é um parceiro valioso, e o seu sucesso é a nossa maior realização.    </p>
                                                 
+                                                
+                                                 
+                                            
                                             </ul>
+                                        </div>         
+                                    
+
+
+
+
+
+                                    
                                     </div>
 
     </div>
-    
+                                </div>        
 
-
-    
-   
-  
-
-
-    
-    
-    
-
-
-      
-      
          
       
         </div>
@@ -278,42 +333,7 @@
       </section>
 
 
-      <div id="controledeconsultas" class="about-area pd-top-60 ">
-        <div class="container">
-
-           
-
-            <div class="row">
-
-                <div class="col-lg-6 wow animated fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                    <div class="section-title ">
-                        <h3 class="title">Frente de Caixa e PDV </h3>
-                        <h6 class="title ">Gerencie suas<span> Operações de Caixa </span>com Eficiência e Praticidade </h6>
-                        <p class="content mb-2 mt-1 " >Com o nosso sistema de Frente de Caixa e PDV, você terá total controle sobre a movimentação de caixa da sua loja, seja ela física ou virtual. A abertura e o fechamento de caixa são realizados de forma ágil, proporcionando resultados de venda simplificados e precisos.</p>
-                              
-                        <E class="content mb-4 " >Além disso, você poderá emitir NFCe com código QR Code diretamente pelo celular e enviá-los por e-mail ou WhatsApp, eliminando a necessidade de impressão. Em apenas alguns cliques, suas vendas são efetuadas de maneira rápida e descomplicada. Com o nosso sistema, você simplifica todas as operações de caixa, permitindo que você se concentre no crescimento do seu negócio, com uma gestão financeira eficiente e prática.
-
-
-
-                        </E>
-                        
-                    </div>
-                </div>
-
-
-                <div class="col-lg-6">
-                    <div class="about-thumb-inner pe-xl-5 me-xl-5 wow animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                        
-                        <img class="animate-img-2 left_image_bounce" src="assets/img/about/3.png" alt="img">
-                        <img class="animate-img-3 top_image_bounce" src="assets/img/banner/5.svg" alt="img">
-                        <img class="main-img" src="assets/img/about/1wbwebpdv.jpg" alt="img">
-                    </div>
-                </div>
-
-                
-            </div>
-        </div>
-    </div>
+      
 
     
 </div>
@@ -333,7 +353,7 @@
                     <div class="section-title mb-0">
                         <h6 class="sub-title">CONTATE</h6>
                         <h2 class="title">Não perca mais <span> Tempo</span> Mande já uma mensagem</h2>
-                        <p class="content">Tem <span>muita gente nas redes sociais que querem </span> conhecer a sua Empresa!</p><p> <span>Agende uma reunião.</span></p>
+                        <p class="content">Tem <span>muita gente na internet que querem </span> conhecer a sua Empresa!</p><p> <span>Agende uma reunião.</span></p>
                         <form class="mt-4" action="https://api.web3forms.com/submit" method="POST">
                             <input type="hidden" name="access_key" value="4aeac532-e643-44c4-83c7-23d0c4b5e78e">
                             <div class="row">
