@@ -1,0 +1,113 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "wN70zoObqQ9QQQjDaXdVBSFJ9Bo",
+    "regionCode": "BR",
+    "pageInfo": {
+      "totalResults": 3,
+      "resultsPerPage": 3
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "-de-nQFUOa0m2PIDnL77PC1IoC0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "kcnXhShYAOY"
+        },
+        "snippet": {
+          "publishedAt": "2023-09-25T18:18:47Z",
+          "channelId": "UCFxYunGEc8J3swuy8M4oq4A",
+          "title": "WB Food Apresentação - Sistema de Gestão para restaurantes e outros estabelecimentos de alimentação.",
+          "description": "Conheça o WB Food, o sistema de gestão completo para bares, restaurantes e serviços de alimentação. Neste vídeo ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/kcnXhShYAOY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kcnXhShYAOY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kcnXhShYAOY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "WB Digital Solutions",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-09-25T18:18:47Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "XfC03HS_-VI_fbRNNPJT8v1tYV0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "U6NO6U0os1w"
+        },
+        "snippet": {
+          "publishedAt": "2023-09-18T00:01:52Z",
+          "channelId": "UCFxYunGEc8J3swuy8M4oq4A",
+          "title": "WBSalaoApresentacaoMariahistoria",
+          "description": "Não perca esse vídeo exclusivo onde a cabeleireira Maria conta como o software WB Salão revolucionou o gerenciamento do ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/U6NO6U0os1w/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/U6NO6U0os1w/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/U6NO6U0os1w/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "WB Digital Solutions",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-09-18T00:01:52Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "qfYMxe7GFMn68DMrnfOrxOG6zIc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "znzY-IvYjQ4"
+        },
+        "snippet": {
+          "publishedAt": "2023-09-12T12:51:00Z",
+          "channelId": "UCFxYunGEc8J3swuy8M4oq4A",
+          "title": "WBClinica Apresentação",
+          "description": "Descubra a Revolução na Gestão de Clínicas Médicas Bem-vindo ao futuro da administração de clínicas! Apresentamos ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/znzY-IvYjQ4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/znzY-IvYjQ4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/znzY-IvYjQ4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "WB Digital Solutions",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-09-12T12:51:00Z"
+        }
+      }
+    ]
+  }
