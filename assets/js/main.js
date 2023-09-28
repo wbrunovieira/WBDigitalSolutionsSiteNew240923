@@ -54,21 +54,21 @@
         /*--------------------------------------------
             Search Popup
         ---------------------------------------------*/
-        var bodyOvrelay =  $('#body-overlay');
-        var searchPopup = $('#td-search-popup');
-        var sidebarMenu = $('#sidebar-menu');
+        // var bodyOvrelay =  $('#body-overlay');
+        // var searchPopup = $('#td-search-popup');
+        // var sidebarMenu = $('#sidebar-menu');
 
-        $(document).on('click','#body-overlay',function(e){
-            e.preventDefault();
-            bodyOverlay.removeClass('active');
-            searchPopup.removeClass('active');
-            sidebarMenu.removeClass('active');
-        });
-        $(document).on('click','.search-bar-btn',function(e){
-            e.preventDefault();
-            searchPopup.addClass('active');
-        bodyOverlay.addClass('active');
-        });
+        // $(document).on('click','#body-overlay',function(e){
+        //     e.preventDefault();
+        //     bodyOverlay.removeClass('active');
+        //     searchPopup.removeClass('active');
+        //     sidebarMenu.removeClass('active');
+        // });
+        // $(document).on('click','.search-bar-btn',function(e){
+        //     e.preventDefault();
+        //     searchPopup.addClass('active');
+        // bodyOverlay.addClass('active');
+        // });
 
         /* -----------------------------------------------------
             Variables
@@ -241,6 +241,7 @@
             $("html,body").animate({
                 scrollTop: 0
             }, 2000);
+            return false
         });
 
     });
@@ -252,8 +253,10 @@
         var ScrollTop = $('.back-to-top');
         if ($(window).scrollTop() > 1000) {
             ScrollTop.fadeIn(1000);
+            return false
         } else {
             ScrollTop.fadeOut(1000);
+            return false
         }
 
         /*---------------------------------------

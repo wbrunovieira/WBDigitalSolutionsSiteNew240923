@@ -7182,3 +7182,9 @@ ul {
   background-color: #762990; /* Ajuste a cor conforme necessário */
   margin: 20px auto; /* Ajuste as margens conforme necessário */
 }
+
+.menu-has-no-child {
+  position: relative;
+  z-index: 0;
+  padding-right: 14px;
+}

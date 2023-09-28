@@ -36,14 +36,14 @@
     <!-- preloader area end -->
 
     <!-- search popup start-->
-    <div class="td-search-popup" id="td-search-popup">
+    <!-- <div class="td-search-popup" id="td-search-popup">
         <form action="index.html" class="search-form">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search.....">
             </div>
             <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
         </form>
-    </div>
+    </div> -->
     <!-- search popup end-->
     <div class="body-overlay" id="body-overlay"></div>
 
@@ -67,28 +67,37 @@
             </div>
             <div class="collapse navbar-collapse" id="itech_main_menu">
                 <ul class="navbar-nav menu-open text-lg-end">
-                    <li >
+                    <li class="menu-has-no-child">
                         <a href="index.html">Home</a>
-                     
+                        
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="service.html">Sistemas</a>
+                        <a href="#">Sistemas</a>
+                        <a href="#" class="submenu-toggle-btn" onclick="toggleSubMenu(event)">
+                            <i class="fa fa-angle-down"></i>
+                        </a>
                         <ul class="sub-menu">
                             <li><a href="wbweb.html">WB Web</a></li>
                             <li><a href="wbsalao.html">WB Salão</a></li>
                             <li><a href="wbclinica.html">WB Clínica</a></li>
                             <li><a href="wbfood.html">WB Food</a></li>
-                            <li><a href="wbshop.html">WB Shop-online (em breve)</a></li>
-                            <li><a href="wbpet.html">WB Pet (em breve)</a></li>
-                            <li><a href="wbagro.html">WB Agro (em breve)</a></li>
+                            <li><a href="#">WB Shop-online (em breve)</a></li>
+                            <li><a href="#">WB Pet (em breve)</a></li>
+                            <li><a href="#">WB Agro (em breve)</a></li>
                         </ul>
                     </li>
-                    <li >
+                    
+
+                    <li class="menu-has-no-child">
                         <a href="site.html">Sites</a>
-                     
+                        
                     </li>
+
                     <li class="menu-item-has-children">
                         <a href="#">Marketing Digital</a>
+                        <a href="#" class="submenu-toggle-btn" onclick="toggleSubMenu(event)">
+                            <i class="fa fa-angle-down"></i>
+                        </a>
                         <ul class="sub-menu">
                             
                             <li><a href="social.html">Gestão de Redes Socias</a></li>
@@ -97,18 +106,19 @@
                         </ul>
                     </li>
 
-                  
-                    <li class="menu-item-has-children">
-                        <a href="#">Clientes</a>
-                        <div class="sub-menu">
-                           
-                       
-                           
-                           
-                        </div>
+                   
+                    <li class="menu-has-no-child">
+                        <a href="clientes.html">Clientes</a>
+                        
                     </li>
-                    <li class="menu-item" ><a href="blog-1.html">Blog</a></li>
-                    <li><a href="contact.html">Contato</a></li>
+
+               
+                    <li class="menu-has-no-child" ><a href="blog-1.html">Blog</a></li>
+
+
+                    <li class="menu-has-no-child" ><a href="contact.html">Contato</a></li>
+
+                    
                 </ul>
             </div>
             <div class="nav-right-part nav-right-part-desktop align-self-center">
@@ -133,7 +143,7 @@
             
                 
                
-                    <h1  class="page-title display-4 text-center ">Por que ainda eu <span class="text-color-main text-decoration-underline ">preciso de um <strong class="">site ?</strong></span> </h1>
+                    <h1  class="page-title display-4 text-center ">Por que <span class="display-1 text-uppercase">ainda</span> eu <span class="text-color-main text-decoration-underline ">preciso de um <strong class="">site ?</strong></span> </h1>
                 
             
         </div>
@@ -157,13 +167,13 @@
                                     <li><i class="far fa-user"></i> Bruno Vieira</li>
                                     <li><i class="far fa-folder-open"></i> Site</li>
                                 </ul>
-                                <h2 class="text-center">Introdução</h2>
-                                <p class="text-small" >Na era digital, onde o Instagram se tornou uma ferramenta multifuncional, muitos empresários se perguntam sobre a relevância de possuir um site. </p>
+                                <h2 class="text-center display-6">Introdução</h2>
+                                <p class="mt-5" >Na era digital, onde o Instagram se tornou uma ferramenta multifuncional, muitos empresários se perguntam sobre a relevância de possuir um site. </p>
 
                                 <p>É aqui que entra a importância de estabelecer um domínio próprio no vasto universo online, desfrutando das inúmeras vantagens e oportunidades que ele proporciona.</p>
 
-                                <h5 class="text-center">A Importância de um Endereço Digital Próprio</h5>
-                                <p class="text-small" >Imagine o mundo digital como uma cidade imensa. Ter um site é equivalente a ter seu próprio estabelecimento nessa cidade, onde a marca, a estética e as regras são exclusivamente suas. </p>
+                                <h2 class="text-center mt-5 display-6">A Importância de um <span class="text-color-main ">endereço digital próprio</span></h2>
+                                <p class="mt-5" >Imagine o mundo digital como uma cidade imensa. Ter um site é equivalente a ter seu próprio estabelecimento nessa cidade, onde a marca, a estética e as regras são exclusivamente suas. </p>
 
                                 <p>O investimento, ao comparar com uma loja física, é muito mais acessível, e o alcance é global.</p>
                                 
@@ -171,12 +181,46 @@
 
                                 <p>Plataformas de terceiros são como shopping centers. Eles controlam a visibilidade, as regras e, eventualmente, podem até fechar as portas.</p>
                                 <p>Um site é seu território independente, uma fundação sólida imune às flutuações de plataformas de mídias sociais.</p>
+
+                                <h6> Autoridade e credibilidade</h6>
+
+                                <p>Um site bem projetado, com código limpo e design profissional transmite autoridade e credibilidade para sua marca.</p>
+                                <p>Mostra que você é sério sobre seu negócio e está disposto a investir nele. Clientes em potencial se sentem mais seguros em comprar de você quando têm um site para explorar, não apenas uma conta no Instagram.</p>
+
+                                <h6>   Blog de conteúdo de valor</h6>
+
+                                <p>Um blog no seu site é uma poderosa ferramenta para mostrar seu conhecimento, estabelecer autoridade no seu nicho e atrair visitantes qualificados.</p>
+                                <p>É muito mais profissional do que apenas postar conteúdos no feed do Instagram.</p>
+
+                                <h6>Preseça no Google</h6>
+
+                                <p>Ter um site é a única maneira de garantir que sua empresa possa ser encontrada através das buscas no Google. </p>
+                                <p>Este fator é crucial, pois amplia significativamente o alcance do seu negócio, possibilita a atração de novos clientes e consolida a presença online da sua marca.</p>
+
+                                <p>Ter presença nos mecanismos de busca (Google, Bing etc) é essencial para que novos clientes encontrem você organicamente. Isso só é possível com um site otimizado para SEO. Uma conta só no Instagram significa perder todo o tráfego de pesquisas relevantes.</p>
+
                                 
+
+
+                                <h6>Call to actions claras (Chamadas para ação)</h6>
+
+                                <p>Em um site você pode colocar calls to action (CTAs) estratégicos para guiar os visitantes a se cadastrar, comprar, agendar uma consulta etc. Já no Instagram as opções de CTAs são limitadas..</p>
                                 
+                                <h6>Vendas e checkout</h6>
+
+                                <p>Embora seja possível vender no Instagram usando links na bio ou shoppable posts, a experiência de checkout ainda é limitada. Já sites permitem uma experiência de compra completa, com páginas de produto detalhadas, integrações com gateways de pagamento etc.</p>
+                                
+                                <h6>Mais opções para conectar com seu público</h6>
+
+                                <p>No Instagram, a interação acontece principalmente nos feeds e stories. Já um site permite páginas sobre, blog, FAQ, chat online e outras maneiras de se conectar com seu público-alvo. Você pode atender melhor às necessidades dos clientes em diferentes estágios da jornada de compra.</p>
+                                
+
+
+
                                 <blockquote>
                                     <i class="fas fa-quote-right"></i>
-                                    <p>"Ter um site é como ter uma voz no vasto coro digital do mundo, permitindo que você compartilhe sua visão, conhecimento e paixão com um público global."</p>
-                                    <p class="name">Autor desconhecido</p>
+                                    <p class="text-small" style="font-style: italic;">"Ter um site é como ter uma voz no vasto coro digital do mundo, permitindo que você compartilhe sua visão, conhecimento e paixão com um público global."</p>
+                                    <p class="name text-small">Autor desconhecido</p>
                                 </blockquote>
 
                                 <div class="row mb-3">
@@ -188,12 +232,24 @@
                                    
                                 </div>
 
-                                <h6>Pixels e Rastreamento</h6>
+                              
+                                <h6 class="mt-5">Pixels e Rastreamento</h6>
 
                                 <p>Pixels são como os detetives do mundo digital. Mas, o que significa isso no contexto do seu site? Bem, um pixel é um pequeno código inserido nas páginas do seu site que coleta informações sobre o comportamento dos visitantes. Ele permite que você saiba quais seções do site são mais visitadas, onde os usuários clicam e até mesmo que tipo de conteúdo gera mais interesse.</p>
                                 <p>Esta ferramenta é vital porque, ao entender o comportamento dos seus visitantes, você pode ajustar e otimizar o seu site para melhor atender às necessidades e preferências do seu público. É como ter um termômetro para medir o interesse dos seus clientes e, assim, oferecer a eles não apenas o que eles querem, mas da maneira que desejam.</p>
 
                                 <p>Além disso, com os dados coletados pelos pixels, é possível criar estratégias de marketing digital mais personalizadas e eficazes, o que se traduz em maior engajamento, mais conversões e, consequentemente, aumento nas vendas e na satisfação dos clientes. Portanto, ao optar por ter um site, você ganha a capacidade de "espionar" de forma ética o comportamento dos usuários, algo indispensável na era da informação e personalização.</p>
+
+                                <p> <span class="text-color-main">Remarketing:</span> O pixel também possibilita o rastreamento dos usuários após saírem do seu site, permitindo que você exiba anúncios específicos para eles em outras plataformas, como o Facebook, incentivando-os a retornar e concluir uma ação, como uma compra.</p>
+
+                                <p> <span class="text-color-main">Segmentação de Público: </span> Com os dados recolhidos, é possível segmentar o público em diferentes grupos com base em suas preferências e comportamentos, permitindo a criação de campanhas publicitárias mais personalizadas e eficientes.</p>
+
+                                   
+                                <blockquote>
+                                    <i class="fas fa-quote-right"></i>
+                                    <p class="text-small" style="font-style: italic;">""Ter um site é como ter uma filial aberta 24 horas por dia, 7 dias por semana, sem interrupções, para que seus clientes possam acessar informações sobre sua empresa e seus produtos ou serviços a qualquer momento."</p>
+                                    <p class="name text-small">Autor desconhecido</p>
+                                </blockquote>
 
                                 <div class="row mb-3">
                                     <div >
@@ -204,32 +260,58 @@
                              
                                 </div>
 
-                                <h6>Credibilidade e Profissionalismo</h6>
+                                <h6 class="mt-5">Programação e Estrutura</h6>
+                                            <p>Um site bem programado é como um motor afinado. <br> Ele funciona suavemente, proporcionando uma experiência ágil e estável, e é facilmente indexado pelos motores de busca, aumentando sua visibilidade e ranqueamento no Google, melhorando assim sua visibilidade e posição nas pesquisas.</p>
 
-                                <p>Neste mundo digital, um site é seu aperto de mão, seu olhar nos olhos. Ele comunica seriedade, estabelece confiança e serve como uma plataforma central de informações, onde clientes podem aprender mais sobre seus produtos ou serviços.</p>
+                                            <p>Ao tomar a decisão de criar um site, é essencial ponderar sobre a escolha entre utilizar soluções prontas, como o WordPress, ou investir em um site construído com códigos personalizados.</p>
 
-                                <h6>Programação e Estrutura</h6>
-                                <p>Um site bem programado é como um motor afinado. Ele funciona suavemente, proporcionando uma experiência ágil e estável, e é facilmente indexado pelos motores de busca, aumentando sua visibilidade e ranqueamento.</p>
 
-                                <div class="row mb-3">
-                                    <div >
-                                        <div >
+                            
+
+                                
+
+
+                                    <div class="row mt-5"  >
+                                        <div class="col-lg-6">
                                             <img src="assets/img/blog/blog1porquesite3.jpg" alt="img">
                                         </div>
-                                    </div>
-                             
-                                </div>
+                                        
+                                        <div class="col-lg-6 d-flex align-items-center">
+                                            <div>
+                                                <h6>Credibilidade e Profissionalismo</h6>       
+                                                <p>Neste mundo digital, um site é seu aperto de mão, seu olhar nos olhos. Ele comunica seriedade, estabelece confiança e serve como uma plataforma central de informações, onde clientes podem aprender mais sobre seus produtos ou serviços.</p>
 
-                                <h4>You’re in Good Hands With Allstate</h4>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                <h4>It includes a key benefit</h4>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                <ul class="single-list-inner style-check style-heading style-check mb-3">
-                                    <li><i class="far fa-check-circle"></i> Creating a Balanced and Nutritious</li>
-                                    <li><i class="far fa-check-circle"></i> iTechnology that helps grow companies</li>
-                                    <li><i class="far fa-check-circle"></i> Everything you need to succeed</li>
-                                </ul>
-                                <p>Lorem available market standard dummy text available market industry Lorem Ipsum simply dummy text of free available market.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                            </div>
+                                           
+    
+                                           
+                                        </div>
+
+                                    </div>
+
+                               
+                             
+                                <h4 class="mt-5">Importância do Código Personalizado</h4>
+
+                                <p>A construção de um site com códigos personalizados é um investimento estratégico que pode trazer inúmeros benefícios para o seu negócio. </p>
+
+                                <p>Essa abordagem oferece um nível de performance, segurança e flexibilidade que soluções prontas muitas vezes não conseguem igualar.</p>
+
+                                <p> <span class="text-color-main">Performance Superior:</span> A otimização específica para as necessidades do seu negócio resulta em um site mais leve e rápido, contribuindo para a retenção de usuários e construção de uma imagem positiva da sua marca na internet.</p>
+
+                                <p> <span class="text-color-main"> Segurança Reforçada: </span> Um site personalizado é projetado com medidas de segurança robustas, protegendo os dados do seu negócio e dos seus clientes contra possíveis ameaças online.</p>
+
+                                <p> <span class="text-color-main"> Flexibilidade e Personalização: </span> A capacidade de adaptar e personalizar cada elemento do site permite que sua empresa se destaque, oferecendo uma experiência única aos usuários e refletindo fielmente a identidade da marca.</p>
+
+                               
+
+                                <h2 class="mt-5">Conclusão</h2>
+                                <p>Embora soluções como o WordPress sejam uma opção rápida, a criação de um site com códigos personalizados se destaca como um investimento valioso para empresas que buscam uma presença digital sólida e duradoura. </p>
+
+                                
+                                <p>Não só isso, ter um site é fundamental para garantir visibilidade no Google, abrindo portas para o crescimento e sucesso do seu negócio no ambiente online.</p>
+                                
+                             
                                 
                                 <!-- <div class="prev-next-post">
                                     <div class="row">
