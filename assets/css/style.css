@@ -6164,6 +6164,9 @@ ul {
   overflow: hidden;
   margin-bottom: 20px;
   border-radius: 10px;
+  width: 742px;
+  height: 350px;
+  background-image: ;
 }
 .single-blog-inner .thumb .date {
   height: 94px;
@@ -6311,6 +6314,7 @@ ul {
   display: inline-block;
   margin-right: 12px;
   font-size: 12px;
+  white-space: nowrap;
 }
 .single-blog-list .details .blog-meta li svg {
   color: var(--main-color);
