@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /privado/
+Allow: /publico/
+Sitemap: https://www.wbdigitalsolutions.com/sitemap.xml
