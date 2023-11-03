@@ -1,22 +1,4 @@
 {
-  "redirects": [
-    {
-      "source": "/assets/(.*)",
-      "destination": "/assets/$1",
-      "permanent": false
-    },
-    {
-      "source": "/(.*)",
-      "destination": "https://wbdigitalsolutions.com/$1",
-      "permanent": true,
-      "has": [
-        {
-          "type": "host",
-          "value": "www.wbdigitalsolutions.com"
-        }
-      ]
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
