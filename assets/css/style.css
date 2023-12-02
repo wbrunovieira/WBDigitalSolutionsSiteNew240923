@@ -7192,3 +7192,44 @@ ul {
   z-index: 0;
   padding-right: 14px;
 }
+
+.cookieCard {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f7f7f7 !important;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Isto garante que fique fixado na tela */
+  bottom: 0; /* Alinha na parte inferior da janela */
+  left: 0; /* Alinha no lado esquerdo da janela */
+  width: 50%; /* Isto fará com que se estenda pela largura total da janela */
+  z-index: 1000; /* Isto garante que fique por cima de outros elementos */
+}
+
+.cookieHeading {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(121, 41, 144, 0.5);
+}
+
+.cookieDescription {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.acceptButton {
+  background-color: rgba(121, 41, 144, 0.5);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.linkCookie {
+  color: rgba(121, 41, 144, 0.5);
+  text-decoration: none;
+}

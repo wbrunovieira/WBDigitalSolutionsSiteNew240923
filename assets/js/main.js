@@ -299,3 +299,9 @@
 
 
 })(jQuery);
+
+
+
+document.querySelector('.acceptButton').addEventListener('click', function() {
+    document.querySelector('.cookieCard').style.display = 'none';
+});
